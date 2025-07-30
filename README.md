@@ -31,7 +31,6 @@ Gradient highlights, modern scrollbar, animations — feels native and clean.
 
 - [LeetCode](https://leetcode.com/)
 - [GeeksforGeeks](https://www.geeksforgeeks.org/)
-- [HackerRank](https://www.hackerrank.com/)
 
 (You can easily extend it to more sites!)
 
