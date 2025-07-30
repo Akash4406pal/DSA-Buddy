@@ -125,10 +125,10 @@ dsa-buddy/
 
 > _Below are placeholders. Replace with your own screenshots._
 
-![Chat Interface Preview](./screenshots/chatbox.png)  
+![Chat Interface Preview](./chatbox.png)  
 *Chatbox giving hints*
 
-![Code Review Mode](./screenshots/review.png)  
+![Code Review Mode](./review.png)  
 *Detailed AI review of user code*
 
 ---
@@ -147,7 +147,7 @@ dsa-buddy/
 
 **Akash Pal**  
 _“Chasing Kaizen, not perfection ✨”_  
-[GitHub](https://github.com/yourusername) · [LinkedIn](https://linkedin.com/in/yourprofile) _(update as needed)_
+[GitHub](https://github.com/Akash4406pal) · [LinkedIn](https://www.linkedin.com/in/akash-pal-383734324)
 
 ---
 
