@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "DSA Buddy",
+  "version": "1.0.0",
+  "description": "Chrome extension providing AI-driven hints on coding problems.",
+  "permissions": [
+    "storage",
+    "scripting",
+    "activeTab",
+    "tabs",
+    "contextMenus"
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "icon.png"
+  },
+  "chrome_url_overrides": {
+  "popup": "popup.html"
+},
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": [
+        "https://leetcode.com/problems/*",
+        "https://www.geeksforgeeks.org/problems/*",
+        "https://www.hackerrank.com/challenges/*"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon48.png",
+    "128": "icon.png"
+  },
+  "host_permissions": [
+    "https://leetcode.com/*",
+    "https://www.geeksforgeeks.org/*",
+    "https://www.hackerrank.com/*"
+  ]
+}
