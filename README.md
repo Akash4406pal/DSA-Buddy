@@ -2,8 +2,6 @@
 
 DSA Buddy is a Chrome extension that brings real-time, Gemini-powered AI assistance directly to your favorite coding platforms like **LeetCode**, **GeeksforGeeks**, and **HackerRank**. Whether you're stuck on a problem or want feedback on your code, DSA Buddy is your go-to assistant.
 
-![DSA Buddy Screenshot](./preview.png) <!-- Add your own preview image -->
-
 
 ## 🚀 Features
 
