@@ -39,7 +39,7 @@ Gradient highlights, modern scrollbar, animations — feels native and clean.
 
 ### 1. **Clone or Download the Repo**
 ```bash
-git clone https://github.com/yourusername/dsa-buddy.git
+git clone https://github.com/Akash4406pal/dsa-buddy.git
 cd dsa-buddy
 ```
 
@@ -92,18 +92,28 @@ You need a **free API key** from Google AI Studio:
 
 ```
 dsa-buddy/
+├── dist/                      # Build output (ignored by Git)
+├── node_modules/              # Dependencies (ignored by Git)
 ├── public/
+│   ├── icon48.png
+│   └── manifest.json          # Chrome extension config
 ├── src/
 │   ├── components/
-│   │   ├── DSABuddyChatbox.jsx       # Chat & Review UI
-│   │   └── ReviewMode.jsx            # Detailed code feedback
-│   ├── content.jsx                   # Content script renderer
-│   ├── main.jsx                      # Extension popup
-│   ├── index.css                     # Global styles
-├── index.html                        # Popup HTML
-├── manifest.json                     # Chrome extension config
+│   │   ├── App.jsx            # Popup settings UI
+│   │   ├── DSABuddyChatbox.jsx# Main chat + review chatbox
+│   │   ├── index.css          # Global styles
+│   │   └── reviewMode.jsx     # Code review UI logic
+│   ├── content.jsx            # Content script entry (injects chatbox)
+│   └── main.jsx               # React entry for popup.html
+├── .gitignore
+├── dist.crx                  # Extension packaged (ignored by Git)
+├── dist.pem                  # Private key (ignored by Git)
+├── index.html                # Chrome popup layout
 ├── package.json
-└── vite.config.js
+├── package-lock.json
+├── README.md
+├── vite.config.js
+├── vite.config.content.js    # Vite config for content scripts
 ```
 
 ---
